@@ -26,7 +26,10 @@ const Warehouse = (props: WarehouseProps) => {
                 <Zone key={i} id={i} name={name} />
             ))}
 
-            <Button disabled={canSubmit} onClick={postToEndpoint}>
+            <Button
+                disabled={canSubmit}
+                onClick={() => postToEndpoint(zoneNames, ownedShelves)}
+            >
                 Submit
             </Button>
         </Container>
