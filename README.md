@@ -1,3 +1,7 @@
+The application allows users to add duplicate shelf names to the UI but will inform the user of the duplicates and prevent form submission to a server.
+The application also does not check for duplicate zone names. I assume this is not desired behavior, but it was not asked for in the prompt.
+I have not included any meaningful tests.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
